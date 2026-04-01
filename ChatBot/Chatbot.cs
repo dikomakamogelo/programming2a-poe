@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Speech.Synthesis;
 
 namespace ChatBot
 {
@@ -32,6 +33,7 @@ namespace ChatBot
 
         private void GreetUser()
         {
+            Speak($"Hello {userName}, welcome to the Cybersecurity Chatbot.");
             UIHelper.TypeText($"\nHello, {userName}! 👋");
             UIHelper.TypeText("I am your Cybersecurity Assistant.");
         }
@@ -59,6 +61,12 @@ namespace ChatBot
                 string response = GetResponse(input);
                 UIHelper.TypeText(response);
             }
+        }
+
+        private void Speak(string text)
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak(text);
         }
 
         private string GetResponse(string input)
