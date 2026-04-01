@@ -31,6 +31,12 @@ namespace ChatBot
             }
         }
 
+        private void Speak(string text)
+        {
+            SpeechSynthesizer synth = new SpeechSynthesizer();
+            synth.Speak(text);
+        }
+
         private void GreetUser()
         {
             Speak($"Hello {userName}, welcome to the Cybersecurity Chatbot.");
@@ -63,11 +69,6 @@ namespace ChatBot
             }
         }
 
-        private void Speak(string text)
-        {
-            SpeechSynthesizer synth = new SpeechSynthesizer();
-            synth.Speak(text);
-        }
 
         private string GetResponse(string input)
         {

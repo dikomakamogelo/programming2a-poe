@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FtFilxGmzFQ=",
+  "dgSpecHash": "zyZUPhvZ+h4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\source\\repos\\ChatBot\\ChatBot\\ChatBot.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lab_services_student\\source\\repos\\programming2a-poe\\ChatBot\\ChatBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.speech\\10.0.5\\system.speech.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
