@@ -1,10 +1,14 @@
-﻿namespace ChatBot
+﻿using ChatBot;
+using System;
+
+namespace ChatBot
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Chatbot bot = new Chatbot();
+            bot.Start();
         }
     }
 }
