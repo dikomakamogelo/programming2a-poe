@@ -9,15 +9,25 @@ namespace ChatBot
         {
             Console.Clear();
 
-            Console.WriteLine("=====================================");
-            Console.WriteLine("   CYBERSECURITY CHATBOT SYSTEM");
-            Console.WriteLine("=====================================\n");
+            Console.WriteLine("=================================================");
+            Console.WriteLine("        CYBERSECURITY CHATBOT SYSTEM");
+            Console.WriteLine("=================================================\n");
 
-            Console.WriteLine("   [ ASCII LOGO ]");
-            Console.WriteLine("    _____________");
-            Console.WriteLine("   |  SECURITY  |");
-            Console.WriteLine("   |   SHIELD   |");
-            Console.WriteLine("   |____________|\n");
+            Console.WriteLine(@" 
+        _________
+       / ======= \
+      / __________\
+     | ___________ |
+     | | -       | |
+     | |         | |   🔐
+     | |_________| |
+     \=____________/
+     / """""""""""" \
+    / :::::::::::::: \
+   (_________________)
+    ");
+
+            Console.WriteLine("\n=================================================\n");
         }
 
         public static void ShowDivider()
